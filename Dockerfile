@@ -1,6 +1,6 @@
 FROM node:12-alpine
 
-RUN npm install -g @nestjs/cli@8.0.0
+RUN npm i -g yarn @nestjs/cli@8.0.0
 
 USER node
 
